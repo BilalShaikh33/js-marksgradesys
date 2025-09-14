@@ -14,7 +14,7 @@ var totalmarks = 500
 obtmarks = maths + computer + physics + english + sst;
 var percentage = (obtmarks / totalmarks) * 100;
 
-if (typeof obtmarks != Number) {
+if (typeof obtmarks != "number") {
     alert("Wrong input")
 }
 else {
